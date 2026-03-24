@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = 'dockerhub-creds' // The ID you'll set in Jenkins
-        APP_NAME = "likhitha-hm /flask-app"
+        APP_NAME = "likhitha-hm/flask-app"
     }
     stages {
         stage('Checkout') {
